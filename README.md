@@ -1,5 +1,5 @@
 # CYP8B1
-CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript. The scripts and data were organised to ensure the credibility and replicability of the results reported. However, the goal of this project is not to release a fully-automate pipeline. 
+CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript. The scripts and data are organised to ensure the integrity, credibility and replicability of the results reported. However, the goal of this repository is not to release a fully-automate pipeline and is beyond the scope of this manuscript. 
 
 <h2 style="text-align: center;"><strong>Signatures of relaxed selection in the <em>CYP8B1</em> gene of birds and mammals</strong></h2>
 <p style="text-align: center;">Sagar Sharad Shinde<sup>1</sup>, Lokdeep Teekas<sup>1</sup>, Sandhya Sharma<sup>1</sup>, Nagarjun Vijay<sup>1</sup></p>
@@ -24,6 +24,10 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <li>MUSCLE (v3.8.31)</li>
 <li>MAFFT (v7.407)</li>
 <li>CLUSTALW (2.0.12)</li>
-<li>MUMSA</li>  (Lassmann and Sonnhammer 2005)
+<li>MEGA (10.0.5)</li>  
+<li>DAMBE (7.0.58)</li>
+<li>bam-readcount (0.8.0)</li>
+<li>MUMSA (1.0)</li>  (Lassmann and Sonnhammer 2005)
 <li>modeltest-ng</li> (Darriba et al. 2019)   
+<li>raxml-ng</li>
 <li>HyPhy</li>   
