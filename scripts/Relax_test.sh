@@ -23,7 +23,6 @@ echo $tree|sed "s/$focal/$focal{foreg}/g" > temp.tree
 #for each set of background species create a tree file
 for backs in `echo $back|tr "-" "\n"`
 do
-done
 cat "$i"_PRANK.aln > tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled
 cat temp.tree >> tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled
 workdir=`pwd`
@@ -36,4 +35,5 @@ done
 done
 done
 treecount=`echo $treecount|awk '{print $1+1}'`
+done
 done
