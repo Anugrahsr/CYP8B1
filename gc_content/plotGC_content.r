@@ -1,7 +1,7 @@
 library(RColorBrewer)
 qual_col_pals <- brewer.pal.info[brewer.pal.info$category == 'qual',]
 col_vector <- unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
-tiff("Figure_S4A.tif", width = 22, height = 12, units = 'in', res = 500)
+tiff("Figure_S2A.tif", width = 22, height = 12, units = 'in', res = 500)
 par(mfrow=c(4,4))
 for (j in c(1:16)){
 Sys.glob(file.path(".", paste(j,"_*.GC_deviation",sep="")))->Files
@@ -16,7 +16,7 @@ abline(h=0,col="blue")
 }
 dev.off()
 
-tiff("Figure_S4B.tif", width = 22, height = 12, units = 'in', res = 500)
+tiff("Figure_S2Btif", width = 22, height = 12, units = 'in', res = 500)
 par(mfrow=c(4,4))
 for (j in c(1:16)){
 Sys.glob(file.path(".", paste(j,"_*.gc_content",sep="")))->Files
